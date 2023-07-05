@@ -8,6 +8,7 @@ import { QuestionComponent } from './category-selection/question/question.compon
 import { ResultComponent } from './category-selection/question/result/result.component';
 import { ContactComponent } from './contact/contact.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
     ResultComponent,
     ContactComponent,
     PageNotFoundComponent,
+    HomeComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
