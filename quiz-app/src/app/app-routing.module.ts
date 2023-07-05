@@ -6,11 +6,6 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
 
 const routes: Routes = [
   {
-    path: '',
-    redirectTo: '/quiz-category',
-    component: CategorySelectionComponent,
-  },
-  {
     path: 'quiz-category',
     component: CategorySelectionComponent,
   },
